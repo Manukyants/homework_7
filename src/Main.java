@@ -1,20 +1,20 @@
 public class Main {
     public static void main(String[] args) {
-        // Задание №1
-        String middleName = "Иванов ";
-        String firstName = "Семён ";
-        String lastName = "Семёнович ";
+        // Р—Р°РґР°РЅРёРµ в„–1
+        String middleName = "РРІР°РЅРѕРІ ";
+        String firstName = "РЎРµРјС‘РЅ ";
+        String lastName = "РЎРµРјС‘РЅРѕРІРёС‡ ";
         String fullName = middleName + firstName + lastName;
-        System.out.println("ФИО сотрудника - " + fullName);
+        System.out.println("Р¤РРћ СЃРѕС‚СЂСѓРґРЅРёРєР° - " + fullName);
 
-        // Задание №2
+        // Р—Р°РґР°РЅРёРµ в„–2
         String fullNameUpper = fullName.toUpperCase();
-        System.out.println("Данные ФИО сотрудника для заполнения отчета - "+fullNameUpper);
+        System.out.println("Р”Р°РЅРЅС‹Рµ Р¤РРћ СЃРѕС‚СЂСѓРґРЅРёРєР° РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РѕС‚С‡РµС‚Р° - "+fullNameUpper);
 
-        // Задание №3
-        fullName = fullName.replace("ё", "е");
-        fullName = fullName.replace("Ё", "Е");
-        System.out.println("Данные ФИО сотрудника — " + fullName);
+        // Р—Р°РґР°РЅРёРµ в„–3
+        fullName = fullName.replace("С‘", "Рµ");
+        fullName = fullName.replace("РЃ", "Р•");
+        System.out.println("Р”Р°РЅРЅС‹Рµ Р¤РРћ СЃРѕС‚СЂСѓРґРЅРёРєР° вЂ” " + fullName);
 
     }
 }
